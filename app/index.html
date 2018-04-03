@@ -3,34 +3,51 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
-  <title>Clear View Escapes</title>
+  <title>Modern Health Experience</title>
   <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
   <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
+
+  <link rel="stylesheet" href="temp/styles/styles.css">
+
 </head>
 <body>
   <header>
     <img src="assets/images/icons/clear-view-escapes.svg">
-    <a href="#">Get in Touch</a>
+    <a href="#" class="btn">Get in Touch</a>
     <nav>
       <ul>
         <li><a href="#our-beginning">Our Beginning</a></li>
-        <li><a href="#features">Features</a></li>
+        <li><a href="#features">Retreats</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
       </ul>
     </nav>
   </header>
 
   <div class="large-hero">
-    <img src="assets/images/hero--large.jpg">
-    <h1>Your clarity.</h1>
-    <h2>One trip away.</h2>
-    <p>We create soul restoring journeys that inspire you to be you.</p>
-    <p><a href="#">Get Started Today</a></p>
-  </div>
 
+
+    <picture>
+        <source srcset="assets/images/hero--large.jpg 1920w, assets/images/
+        hero--large-hi-dpi.jpg 3840w" media="(min-width: 1380px)">
+        <source srcset="assets/images/hero--medium.jpg 1380w, assets/images/
+        hero--medium-hi-dpi.jpg 2760w" media="(min-width: 990px)">
+        <source srcset="assets/images/hero--small.jpg 990w, assets/images/
+        hero--small-hi-dpi.jpg 1980w" media="(min-width: 640px)">
+        <img srcset="assets/images/hero--smaller.jpg 640w, assets/images/
+        hero--smaller-hi-dpi.jpg 1280w" alt="Coastal view of ocean and mountains" class="large-hero__image">
+    </picture>
+
+    <div class="large-hero__text-content">
+      <div class="wrapper">
+        <h1 class="large-hero__title">Modern Health Experience.</h1>
+        <h2 class="large-hero__subtitle">Take Time For You.</h2>
+        <p class="large-hero__description">We create soul restoring journeys that inspire you to be you.</p>
+        <p><a href="#" class="btn btn--orange btn--large">Get Started Today</a></p>
+      </div>
+    </div>
   <div id="our-beginning">
     <h2>The first trip we planned was our own.</h2>
-    <h3>Ever since, we&rsquo;ve been working to make travel better for everyone.</h3>
+    <h3>Ever since, we&rsquo;ve been working to make health better for everyone.</h3>
     <img src="assets/images/first-trip.jpg" alt="Couple walking down a street.">
     <img src="assets/images/our-start.jpg" alt="Our founder, Jane Doe">
     <h2>Here&rsquo;s how we got started&hellip;</h2>
@@ -81,7 +98,7 @@
   </div>
 
   <footer>
-    <p>Copyright &copy; 2016 Clear View Escapes. All rights reserved. <a href="#">Get in Touch</a></p>
+    <p>Copyright &copy; 2018 Modern Health Experience. All rights reserved. <a href="#" class="btn btn--orange">Get in Touch</a></p>
   </footer>
 </body>
 </html>
